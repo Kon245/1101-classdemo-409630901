@@ -17,7 +17,7 @@ body {
 }
 .wire{
     width: 50%;
-    height: 130%;
+    height: 90%;
     position: absolute;
     left: -30px;
     top: 1170px;
@@ -108,7 +108,7 @@ body {
     justify-content: center;
     font-size: 17px;
     line-height: 2px;
-    padding-left: 20px;
+    padding: 30px;
 }
     .bar{
         width: 100%;
