@@ -1,0 +1,121 @@
+body {
+    height: 100%;
+    display: flex;
+    background-color: rgb(239, 241, 243);
+    flex-direction: column;
+    align-items: center; 
+}
+.circle{
+    background-image: url("./circle.svg");
+    width: 630px;
+    height: 900px;
+    position: absolute;
+    top: 30em;
+    left: 45em;
+    z-index: -4;
+    overflow: hidden ;
+}
+.wire{
+    width: 50%;
+    height: 130%;
+    position: absolute;
+    left: -30px;
+    top: 1170px;
+    border: solid 1.3em rgb(233, 233, 233);
+    z-index: -4;
+}
+.line1 h4{
+    left: 480px;
+    top: 145px;
+    font-size: 70px;
+    font-family: 'Italianno', cursive;
+    color: rgb(100, 100, 100);
+    position :absolute ;
+}
+.line1 h1{
+    color: rgb(100, 100, 100);;
+    font-size:150px ;
+    font-family: 'Italianno', cursive;
+    left: 550px;
+    top: 190px;
+    position :absolute ;
+}
+.line1 p{
+    position: absolute;
+    font-size: 200px;
+    color: rgb(239, 241, 243);
+    left: -30px;
+    top: 170px;
+    border: 0px;
+    margin: 0px;
+    transform: rotate(270deg);
+}
+.line1 h2{
+    position: absolute;
+    left: 1150px;
+    top: 110px;
+}
+.line1 .yellow{
+    position :absolute ;
+    width: 40%;
+    height: 50%;
+    background-color: rgb(247, 241, 208);
+    left: 400px;
+    top: 300px;
+}
+.line1 .gray{
+    width: 35%;
+    height: 75%;
+    background-color: rgb(214, 214, 214);
+    position :absolute ;
+    left: 230px;
+    top: 0px;
+}
+.line1 .frame{
+    width: 20%;
+    height: 38%;
+    position: absolute;
+    left: 650px;
+    top: 120px;
+    border: solid 2px rgb(143, 143, 143);
+}
+.line1 .black{
+    background-color: rgb(70, 70, 70);
+    width: 2%;
+    height: 10%;
+    position: absolute;
+    left: 1150px;
+    top: 50px;
+}
+
+.line2 {
+    width: 80%;
+    display: flex;
+    padding: 4%;
+}
+    .top{
+        margin-top: 50em;
+        border-bottom: solid .3em rgb(243, 247, 255);
+    }
+.line2 img{
+    width: 25%;
+}
+.line2 .text{
+    display: flex;
+    float: right;
+    font-family: Microsoft Jheng Hei;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 17px;
+    line-height: 2px;
+    padding-left: 20px;
+}
+    .bar{
+        width: 100%;
+        height: 2em;
+        margin-bottom: 1.5em;
+        background-color: rgb(96, 106, 151);
+    }
+.text h1{
+    margin: 1px;
+}
