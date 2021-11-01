@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(231, 226, 220);
+}
+
+.Link ul{
+    text-decoration: none;
+    border-left: 3.5rem solid #3e517a;
+}
+.Link li{
+    list-style: none;
+    padding: 0.6rem;
+}
+.Link a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #262626;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Link ul li a:hover {
+    border-bottom: 2px solid #262626;
+}
+.Link{
+    padding: 10rem;   
+}
